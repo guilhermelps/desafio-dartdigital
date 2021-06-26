@@ -1,0 +1,40 @@
+.header-container {
+  display: flex;
+  max-width: 1080px;
+  margin: 20px auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container img {
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+}
+
+.header-container div {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container div a {
+  flex: 1;
+  min-width: fit-content;
+  padding: 10px;
+  width: 100%;
+  margin: 0 5px;
+  height: 5.6rem;
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: filter 0.2s;
+  margin-top: 3.2rem;
+}

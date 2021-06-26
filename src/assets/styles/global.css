@@ -1,0 +1,21 @@
+:root {
+  font-size: 60%;
+
+  --color-primary: #F8F8F8;
+  --color-secundary: #F58226;
+  --color-input-background: #F8F8FC;
+  --color-line-in-white: #E6E6F0;
+  --color-button-text: #FFFFFF;
+  --color-gray: #D4D4D4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background: var(--color-primary);
+}
